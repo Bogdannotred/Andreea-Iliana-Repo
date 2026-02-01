@@ -74,7 +74,7 @@ export const SKILLS: SkillItem[] = [
 ];
 
 export const CONTACT_INFO = {
-  email: "andreeaf.ilina@gmail.com",
+  email: "ilisparkmedia@gmail.com",
   phone: "(+40) 769164886",
   whatsapp: "0769164886",
   location: "București, România",
