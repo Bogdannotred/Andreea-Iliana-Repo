@@ -62,7 +62,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
   {
     name: "Damaris Galai",
     role: "Canvas Dreams",
-    text: "Colaborarea mea cu Andreea, în calitate de Social Media Manager, a fost una foarte eficientă și plăcută. Din punct de vedere profesional, este o persoană responsabilă, bine organizată și punctuală, respectând constant termenele stabilite. Un aspect pe care l-am apreciat în mod deosebit a fost faptul că a înțeles foarte bine dorințele și obiectivele mele încă de la început, le-a implementat exact așa cum au fost discutate și nu a fost nevoie de explicații repetate sau corecturi majore."
+    text: "Colaborarea mea cu Andreea, în calitate de Social Media Manager, a fost una foarte eficientă și plăcută. Din punct de vedere profesional, este o persoană responsabilă, bine organizată și punctuală, respectând constant termenele stabilite. Un aspect pe care l-am apreciat în mod deosebit a fost faptul că a înțeles foarte bine dorințele și obiectivele mele încă de la început, le-a implementat exact așa cum au fost discutate și nu a fost nevoie de explicații repetate sau corecturi majore. Comunicarea a fost mereu deschisă și ușoară, iar abordarea ei prietenoasă a contribuit la o colaborare naturală și eficientă. Continui cu încredere colaborarea cu Andreea și o recomand mai departe tuturor celor care își doresc un Social Media Manager atent, implicat și profesionist."
   }
 ];
 
