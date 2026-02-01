@@ -7,7 +7,7 @@ const Testimonials: React.FC = () => {
   return (
     <section id="testimoniale" className="py-24 bg-slate-900 text-white overflow-hidden relative">
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-indigo-500/10 rounded-full blur-[120px]"></div>
-      
+
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-serif mb-4">Ce spun colaboratorii mei</h2>
@@ -22,9 +22,17 @@ const Testimonials: React.FC = () => {
                 "{t.text}"
               </p>
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-indigo-600 flex items-center justify-center font-bold text-xl">
-                  {t.name.charAt(0)}
-                </div>
+                {t.image ? (
+                  <img
+                    src={t.image}
+                    alt={t.name}
+                    className="w-16 h-16 rounded-full object-cover object-top ring-2 ring-blue-600 ring-offset-2 ring-offset-white shadow-md"
+                  />
+                ) : (
+                  <div className="w-16 h-16 rounded-full bg-indigo-600 flex items-center justify-center font-bold text-xl ring-2 ring-blue-600 ring-offset-2 ring-offset-white shadow-md">
+                    {t.name.charAt(0)}
+                  </div>
+                )}
                 <div>
                   <h4 className="font-bold text-white">{t.name}</h4>
                   <p className="text-sm text-indigo-400 uppercase tracking-wider font-semibold">{t.role}</p>

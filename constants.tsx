@@ -1,12 +1,12 @@
 
 import React from 'react';
 import { ExperienceItem, TestimonialItem, SkillItem } from './types';
-import { 
-  Instagram, 
-  Linkedin, 
-  Facebook, 
-  Mail, 
-  Phone, 
+import {
+  Instagram,
+  Linkedin,
+  Facebook,
+  Mail,
+  Phone,
   MessageCircle
 } from 'lucide-react';
 
@@ -56,27 +56,20 @@ export const TESTIMONIALS: TestimonialItem[] = [
   {
     name: "Lorand Soares Szasz",
     role: "Fondator și CEO Upriserz",
-    text: "Andreea este genul de profesionist care nu doar gestionează social media, ci construiește proiecte și comunități. A avut un rol-cheie în lansarea podcastului „Afaceri pe bune” de la zero. O recomand cu încredere pentru orice rol ce implică structurare și comunicare."
+    text: "Comunicarea a fost mereu deschisă și ușoară, iar abordarea ei prietenoasă a contribuit la o colaborare naturală și eficientă. Continui cu încredere colaborarea cu Andreea și o recomand mai departe tuturor celor care își doresc un Social Media Manager atent, implicat și profesionist.",
+    image: "/Lorand.jpeg"
   },
   {
-    name: "Petruta Canician",
-    role: "Human Resources Specialist",
-    text: "O persoană calmă, empatică și extrem de responsabilă. Are o capacitate foarte bună de a înțelege vocea brandului și avatarul de client. Este un profesionist deschis, colaborativ și un real sprijin pentru echipă."
+    name: "Damaris Galai",
+    role: "Canvas Dreams",
+    text: "Colaborarea mea cu Andreea, în calitate de Social Media Manager, a fost una foarte eficientă și plăcută. Din punct de vedere profesional, este o persoană responsabilă, bine organizată și punctuală, respectând constant termenele stabilite. Un aspect pe care l-am apreciat în mod deosebit a fost faptul că a înțeles foarte bine dorințele și obiectivele mele încă de la început, le-a implementat exact așa cum au fost discutate și nu a fost nevoie de explicații repetate sau corecturi majore."
   }
 ];
 
 export const SKILLS: SkillItem[] = [
   {
-    category: "Strategie & Management",
-    skills: ["Content Planning", "Brand Strategy", "Community Management", "Market Research", "Campaign Analysis"]
-  },
-  {
-    category: "Creare Conținut",
-    skills: ["Copywriting (Hooks & Scripts)", "Video Editing (CapCut)", "Graphic Design (Canva)", "Social Media Ads"]
-  },
-  {
-    category: "Platforme",
-    skills: ["Instagram", "TikTok", "LinkedIn", "Facebook", "YouTube", "Creator Studio"]
+    category: "Brand-uri cu care am lucrat",
+    skills: ["Lorand Soares Szasz", "Upriserz", "Afaceri pe bune", "FAN Courier", "Canvas Dreams", "BUG52", "Spionescu"]
   }
 ];
 
