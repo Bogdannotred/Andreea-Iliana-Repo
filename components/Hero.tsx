@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
                   <span className="text-xs font-bold uppercase tracking-widest text-blue-100">Disponibilă pentru colaborări</span>
                 </div>
 
-                <p className="text-sm opacity-80 uppercase tracking-tighter">Andreea Ilana</p>
+                <p className="text-sm opacity-80 uppercase tracking-tighter">Andreea Ilina</p>
               </div>
             </div>
 

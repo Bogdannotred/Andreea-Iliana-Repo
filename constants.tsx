@@ -84,8 +84,8 @@ export const CONTACT_INFO = {
   whatsapp: "0769164886",
   location: "București, România",
   socials: [
-    { name: "Instagram", icon: <Instagram size={20} />, url: "https://www.instagram.com/andreeailiana/" },
-    { name: "LinkedIn", icon: <Linkedin size={20} />, url: "https://www.linkedin.com/in/andreea-iliana/" },
-    { name: "Facebook", icon: <Facebook size={20} />, url: "#" }
+    { name: "Instagram", icon: <Instagram size={20} />, url: "https://www.instagram.com/andreeaf.ilina/" },
+    { name: "LinkedIn", icon: <Linkedin size={20} />, url: "https://www.linkedin.com/in/andreea-ilina-b43145233/" },
+    { name: "Facebook", icon: <Facebook size={20} />, url: "https://www.facebook.com/andreeamfa/?ref=1" }
   ]
 };

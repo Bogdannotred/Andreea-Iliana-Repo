@@ -19,7 +19,7 @@ const App: React.FC = () => {
         {/* About section - Redesigned to fit the event photo style */}
         <section id="despre" className="py-24 bg-gradient-to-b from-white to-blue-50/50">
           <div className="max-w-7xl mx-auto px-6">
-            <div className="bg-white p-12 lg:p-20 rounded-[3rem] shadow-2xl shadow-blue-100/50 border border-slate-100 flex flex-col lg:flex-row gap-16 items-center">
+            <div className="bg-white p-6 lg:p-20 rounded-3xl lg:rounded-[3rem] shadow-2xl shadow-blue-100/50 border border-slate-100 flex flex-col lg:flex-row gap-10 lg:gap-16 items-center">
               <div className="lg:w-2/5 relative group">
                 <div className="absolute inset-0 bg-blue-600 rounded-3xl rotate-3 group-hover:rotate-0 transition-transform duration-500 -z-10 opacity-10"></div>
                 <img
@@ -53,7 +53,7 @@ const App: React.FC = () => {
                   </p>
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-2 gap-8 pt-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
                   <div className="flex gap-4 items-start">
                     <div className="w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center shrink-0">
                       <div className="w-3 h-3 bg-blue-600 rounded-full"></div>
