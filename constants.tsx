@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ExperienceItem, TestimonialItem, SkillItem } from './types';
 import {
@@ -56,7 +55,13 @@ export const TESTIMONIALS: TestimonialItem[] = [
   {
     name: "Lorand Soares Szasz",
     role: "Fondator și CEO Upriserz",
-    text: "Comunicarea a fost mereu deschisă și ușoară, iar abordarea ei prietenoasă a contribuit la o colaborare naturală și eficientă. Continui cu încredere colaborarea cu Andreea și o recomand mai departe tuturor celor care își doresc un Social Media Manager atent, implicat și profesionist.",
+    text: `Andreea este genul de profesionist care nu doar gestionează social media, ci construiește proiecte și comunități.
+
+Pe parcursul colaborării noastre s-a ocupat integral de toate paginile noastre de social media și a avut un rol-cheie în lansarea unor proiecte noi de la zero, precum podcastul Afaceri pe bune, pe care l-a dus la zeci de mii de vizualizări.
+
+A contribuit activ și constant la creșterea comunității Upriserz, prin structură, consecvență și o foarte bună înțelegere a conținutului relevant pentru antreprenori.
+
+Andreea a făcut o treabă excelentă și sunt convins că poate aduce valoare reală oricărei echipe care își dorește rezultate, nu doar postări.`,
     image: "/Lorand.jpeg"
   },
   {

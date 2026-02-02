@@ -100,6 +100,11 @@ const App: React.FC = () => {
             <a href="#contact" className="hover:text-blue-600 transition-colors">Contact</a>
           </div>
         </div>
+        <div className="max-w-7xl mx-auto px-6 mt-4 text-center border-t border-slate-100 pt-4">
+          <p className="text-slate-500 text-base font-medium">
+            Development & Mentenanță IT: <span className="font-bold text-slate-900">Bogdan Roșu</span> | <a href="tel:0774026055" className="hover:text-blue-600 transition-colors">0774.026.055</a>
+          </p>
+        </div>
       </footer>
     </div>
   );
